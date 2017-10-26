@@ -12,7 +12,7 @@ export var addTodo = (text) => {
     };
 };
 
-export var toogleShowCompleted = () => {
+export var toggleShowCompleted = () => {
     return{
         type: 'TOGGLE_SHOW_COMPLETED'
     }
